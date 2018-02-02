@@ -29,11 +29,10 @@ if not args.f.endswith('.trr'):
           file=stderr)
     exit(1)
 if not args.n.endswith('.ndx'):
-    print('ERROR: El archivo de ìndices ('+args.n') no termina en .ndx',
+    print('ERROR: El archivo de ìndices ('+args.n+') no termina en .ndx',
           file=stderr)
     exit(1)
 
-
-if __name__ = '__main__':
+if __name__ == '__main__':
     exit(main(args))
 
